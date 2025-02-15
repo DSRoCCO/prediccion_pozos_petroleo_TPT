@@ -48,7 +48,7 @@ El presupuesto para el desarrollo de los pozos es de **100 millones de dólares*
 ### Beneficios y Ganancias de Cada Región
 
 #### Para geo_data_0:
-- **Reserva Total**: **30,055.95 miles de barriles**.
+- **Reserva Total**: **30055.95 miles de barriles**.
 - **Beneficio Total**: **$135,265,298**.
 - **Ganancia**: **$35,265,283**.
 
@@ -61,38 +61,45 @@ El presupuesto para el desarrollo de los pozos es de **100 millones de dólares*
 - **Reserva Total**: **27,991.05 miles de barriles**.
 - **Beneficio Total**: **$125,972,340**.
 - **Ganancia**: **$25,972,340**.
+  
+![Comparacion de Beneficios Promedio por Region()
 
 ---
+
 
 ## Análisis de Riesgos y Beneficios
 
 Se aplicó **bootstrapping** con 1000 muestras para calcular los intervalos de confianza al 95% y evaluar el riesgo de pérdidas en cada región.
 
 ### Resultados del Bootstrapping:
-- **Geo_data_0**:
-  - **Intervalo de confianza (95%)**: **-$1,226,849.55** a **$8,975,344.97**.
-  - **Riesgo de pérdidas**: **6.6%**.
 
-- **Geo_data_1**:
-  - **Intervalo de confianza (95%)**: **$409,081.80** a **$8,565,205.98**.
-  - **Riesgo de pérdidas**: **1.3%**.
+![Comparacion de Metricas por Region]()
 
-- **Geo_data_2**:
-  - **Intervalo de confianza (95%)**: **-$1,137,581.91** a **$9,127,531.28**.
-  - **Riesgo de pérdidas**: **7%**.
+- **Geo_data_0** o **Region 0**:
+  - **Intervalo de confianza (95%)**: **$-1,335,858.30 dolares** - **$8,806,768.80 dolares**.
+  - **Riesgo de pérdidas**: **6.4%**.
+
+- **Geo_data_1** o **Region 1**:
+  - **Intervalo de confianza (95%)**: **$445,079.96 dolares** - **$8,580,398.28 dolares**.
+  - **Riesgo de pérdidas**: **1.2%**.
+
+- **Geo_data_2** o **Region 2**:
+  - **Intervalo de confianza (95%)**: **$-1,421,772.78 dolares** - **$9,049,861.75 dolares**.
+  - **Riesgo de pérdidas**: **8.3%**.
+
+![Intervalos_Confianza_y_riesgo]()
 
 ---
+## Conclusiones:
 
-## Conclusiones
+- Elegimos el conjunto de datos geo_data_1 ya que es la que nos ofrece:
 
-- **Mejor Región según Beneficios y Ganancias**:
-  - **Geo_data_0** ofrece las **mayores reservas**, **mayores beneficios** y **mayores ganancias**. Sin embargo, su riesgo de pérdidas es más alto.
-  
-- **Mejor Región considerando el Riesgo**:
-  - **Geo_data_1** es la opción más **conservadora** debido a su bajo riesgo de pérdidas (1.3%), con reservas y beneficios razonables.
+- Considerando la variabilidad de los pozos y siendo algo conservadores tenemos lo siguiente:
+  - **La region 1** la que nos ofrece muy buenas reservas.
+  - **La region 1** la nos ofrece un buen beneficio.
+  - **La region 1** buenas ganancias.
 
-- **Elección Final**:
-  - A pesar de que la **Geo_data_0** tiene el mejor rendimiento en términos de reservas y beneficio, **Geo_data_1** es la mejor opción desde un punto de vista conservador, ya que minimiza el riesgo de pérdidas. Sin embargo, si el objetivo es maximizar las ganancias, la **Geo_data_0** sigue siendo la mejor opción.
+- Apesar que el modelo de la region 0 tiene el mejor RMSE, osea que el modelo logra predecir con mayor eficacia y mayores reservas, y beneficio, la region 1 es la que desde un punto de vista conservador nos ofrece mejores oportunidades de asegurar un buen retorno de inversion sin perdidas.
 
 ---
 
