@@ -87,7 +87,7 @@ Se aplicó **bootstrapping** con 1000 muestras para calcular los intervalos de c
   - **Intervalo de confianza (95%)**: **$-1,421,772.78 dolares** - **$9,049,861.75 dolares**.
   - **Riesgo de pérdidas**: **8.3%**.
 
-![Intervalos_Confianza_y_riesgo]()
+![Intervalos_Confianza_y_riesgo]('img/Intervalos_confianza_y_riego.png')
 
 ---
 ## Conclusiones:
