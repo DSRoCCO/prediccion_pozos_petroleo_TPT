@@ -62,7 +62,8 @@ El presupuesto para el desarrollo de los pozos es de **100 millones de dólares*
 - **Beneficio Total**: **$125,972,340**.
 - **Ganancia**: **$25,972,340**.
   
-![Comparacion de Beneficios Promedio por Region](img/comparacion_beneficio_promedio.png)
+
+![Comparacion de Metricas por Region](img/Compracion_metricas_region.png)
 
 ---
 
@@ -73,7 +74,7 @@ Se aplicó **bootstrapping** con 1000 muestras para calcular los intervalos de c
 
 ### Resultados del Bootstrapping:
 
-![Comparacion de Metricas por Region](img/Compracion_metricas_region.png)
+![Comparacion de Beneficios Promedio por Region](img/comparacion_beneficio_promedio.png)
 
 - **Geo_data_0** o **Region 0**:
   - **Intervalo de confianza (95%)**: **$-1,335,858.30 dolares** - **$8,806,768.80 dolares**.
